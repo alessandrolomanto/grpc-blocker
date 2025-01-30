@@ -1,11 +1,13 @@
 displayName: gRPC Blocker
-
 type: middleware
+iconPath: ./assets/img/grpc-blocker-icon.svg
+bannerPath: ./assets/img/grpc-blocker-banner.svc
 
 import: github.com/alessandrolomanto/grpc-blocker
 
-summary: Blocks specified gRPC services
+summary: "Block specific gRPC services based on their fully qualified names. Provides fine-grained control over gRPC service access, with optional request logging. Compatible with Traefik v2.x."
 
 testData:
+  enableLogging: false
   blockedServices:
     - "grpc.health.v1.Health"

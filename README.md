@@ -1,5 +1,9 @@
 # Traefik Plugin - gRPC Blocker
 
+<p align="center">
+  <img src="assets/img/grpc-blocker-banner.svg" alt="gRPC Blocker Banner" width="800" />
+</p>
+
 A Traefik plugin that allows blocking specific gRPC services based on their fully qualified service names.
 
 ## Features
