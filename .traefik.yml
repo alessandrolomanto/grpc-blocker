@@ -1,7 +1,11 @@
 displayName: gRPC Blocker
+
 type: middleware
+
 import: github.com/alessandrolomanto/grpc-blocker
+
 summary: Blocks specified gRPC services
+
 testData:
   blockedServices:
     - "grpc.health.v1.Health"
